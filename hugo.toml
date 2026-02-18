@@ -1,3 +1,34 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Isabel Rowlands Portfolio'
+theme = 'loficode'
+
+[params]
+  description = "My Portfolio"
+
+  [params.author]
+    name = "Isabel Rowland"
+    image = "images/profile.png"
+
+  # Profile section
+  [params.profile]
+    name = "Isabel Rowland"
+    tagline = "AI & Animation Programmer"
+    photo = "/images/profile.png"
+
+  # Social links - Supported platforms: github, twitter, linkedin, email, mastodon, youtube, instagram, facebook
+  [params.social]
+    github = "Ghostiful"
+    # linkedin = "Isabel Rowland"
+    # email = "irow2020@gmail.com"
+
+# Navigation menu
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 20
