@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Isabel Rowlands Portfolio'
 theme = 'loficode'
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
   description = "My Portfolio"
 
